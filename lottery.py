@@ -13,7 +13,7 @@ class LotteryGenerator:
             y = self.gerRandomNumber()
             if y not in self.numbers:
                 self.numbers.append(y)
-                i +=1
+                i += 1
         return self.numbers
 
 
