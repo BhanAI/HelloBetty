@@ -8,7 +8,7 @@ def isPrime(n):
         return True
 
 
-for number in range(1, 101):
+for number in range(1, 105):
     if isPrime(number):
         print(number)
 
