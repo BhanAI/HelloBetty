@@ -5,7 +5,7 @@ class LotteryGenerator:
     numbers = []
 
     def gerRandomNumber(self):
-        return random.randint(1, 49)
+        return random.randint(1, 50)
 
     def getFinalNumbers(self):
         i = 0
